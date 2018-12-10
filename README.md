@@ -33,27 +33,34 @@
 - 4,	确定ARMA阶数,这里采用两种方法,一是画出ACF、PACF观察p,q值,锁定。
 - 5,	ARMA模型参数max_ar=6,max_ma=4。而是根据锁定的参数训练模型依据aic、bic、hqic指标搜索最优p,q值。
 (训练结果见下组图,蓝色是4月真实值,其他颜色是依据aic bic hqic最优指标预测4月)	
-
+    
+    
 nitrogen_content 建模效果： 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208231659467.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)    
 
-
+    
+    
 particle_size 建模效果：    
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208231812805.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)    
 
- 
+    
+    
 phosphorus_content 建模效果：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208231919195.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)    
 
-
+    
+    
 total_nutrient 建模效果：         
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208231941927.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)    
-
+    
+    
+    
                
 water_content 建模效果： 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208232004145.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)    
-
-
+    
+    
+    
 - 6,	根据最优p,q值训练模型,线下评价。
 - 7,	噪音调优部分：
 模型预测后,可能5月份数据有噪音的加入,使得模型不够完善,预测5月份品质数据不够准确。
