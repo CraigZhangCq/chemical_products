@@ -35,23 +35,24 @@
 (训练结果见下组图,蓝色是4月真实值,其他颜色是依据aic bic hqic最优指标预测4月)	
 
 nitrogen_content 建模效果： 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208231659467.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)
-            
- particle_size 建模效果：     
- ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208231812805.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208231659467.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)    
 
+
+particle_size 建模效果：    
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208231812805.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)    
+
+ 
 phosphorus_content 建模效果：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208231919195.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)
-
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208231919195.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)    
 
 
 total_nutrient 建模效果：         
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208231941927.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208231941927.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)    
 
                
-water_content 建模效果：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208232004145.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)
+water_content 建模效果： 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181208232004145.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTAxOTk0NDE=,size_16,color_FFFFFF,t_70)    
+
 
 - 6,	根据最优p,q值训练模型,线下评价。
 - 7,	噪音调优部分：
