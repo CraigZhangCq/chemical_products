@@ -1,0 +1,14 @@
+﻿参赛代码：dowork/code/run.py   
+          数据 dowork/data
+          结果 dowork/result
+运行说明：dowork/code 目录下 python run.py
+          运行环境: 
+                    Python       3.6.1 
+                    matplotlib   2.0.2
+                    statsmodels  0.8.0
+                    pandas       0.20.1
+                    
+提交结果:  dowork/result/b_0.3524.csv   B榜 0.35242
+                dowork/result/result_0.353305.csv   B榜 0.353305
+               dowork/result/result_0.352423_way.csv  B榜 0.35242 采用的方法
+
